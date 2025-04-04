@@ -1,0 +1,345 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.card {
+    width: 375px;
+    height: 812px;
+    text-align: center;
+    background: linear-gradient(#dcdcdc, #a9a9a9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: blue;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    color: #000;
+  }
+  
+  body {
+    box-sizing: border-box;
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FEFEFE;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Barre latérale */
+  .sidebar {
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: center;
+    /* flex-direction: row; */
+    align-items: center;
+    display: flex
+;
+    width: 133px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+    /* margin: 0px; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-arrondi-bas {
+    position: absolute;
+    top: 0px;
+    width: 133px;
+    height: 225px;
+    background: #000000;
+    border-radius: 0px 0px 80px 80px;
+    
+}
+.rectangle-arrondi-haut {
+    position: absolute;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    width: 124px;
+    height: 481px;
+    bottom: 0px;
+    margin: 0;
+    background: #000000;
+    border-radius: 70px 70px 0px 0px;
+   
+}
+.carte-image {
+    box-sizing: border-box; /* Inclut la bordure dans les dimensions */
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 4px;
+    top: 90px;
+    
+    background-image: url("IMG_5408.jpg");
+    background-size: cover; /* Ajuste l'image pour couvrir la zone */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    
+    border: 5px solid #FFF5F5; /* Bordure blanche légèrement rosée */
+    border-radius: 90px; /* Coins légèrement arrondis (optionnel) */
+}
+
+.nom  {
+    position: absolute;
+    width: 134.93px;
+    height: 24.02px;
+    left: -1px;
+    top: 20px;
+    
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700; /* Gras */
+    font-size: 15px;
+    line-height: 18px; /* Interligne */
+    text-align: center;
+    
+    color: #FFFFFF; /* Texte blanc */
+    
+    /* Solution pour le débordement de texte */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.prof {
+    position: absolute;
+    width: 116.53px;
+    height: 19.52px;
+    left: 5px;
+    top: 50px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.cont {
+    position: absolute;
+width: 132px;
+height: 23px;
+left: 28px;
+top: 235px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+}
+.num {
+    position: absolute;
+width: 58px;
+height: 11px;
+left: 28px;
+top: 252px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.04em;
+
+color: #000000;
+}
+.mail {
+    position: absolute;
+    width: 76px;
+    height: 11px;
+    left: 28px;
+    top: 269px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+}
+.quartier {
+    position: absolute;
+width: 118px;
+height: 25px;
+left: 29px;
+top: 286px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+letter-spacing: 0.04em;
+
+color: #000000;
+}
+.educ, .esgic, .niveau, .annee{
+    position: absolute;
+    font-family: 'Arial';
+    color: #FFFFFF;
+}
+.educ{
+    width: 82px; height: 18px;
+    left: 33px; top: 371px;
+    font-weight: 700; font-size: 12px; line-height: 14px;
+}
+.esgic, .niveau, .annee {
+    text-align: center;
+    font-size: 10px; line-height: 11px;
+}
+.esgic {
+    width: 35px; height: 11px;
+    left: 11px; top: 392px;
+    font-weight: 700;
+}
+.niveau {
+    width: 115px; height: 14px;
+    left: 6px; top: 409px;
+    font-weight: 400;
+}
+.annee {
+    height: 10px;
+}
+#licence-annee { width: 96px; left: -11px; top: 429px; }
+#dut { width: 125px; left: -3px; top: 445px; }
+#dut-annee { width: 80px; left: 14px; top: 461px; text-align: left; }
+/* Section Références */
+/* Style de base */
+.titre-reference, .ref {
+    position: absolute;
+    color: #FFFFFF;
+}
+
+/* Titre "REFERENCE" */
+.titre-reference {
+    width: 82px;
+    height: 18px;
+    left: 33px;
+    top: 478px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* Style commun des références */
+.ref {
+    left: 12px;
+    font-size: 10px;
+}
+
+/* Première référence */
+#ref1 .nom {
+    width: 82px;
+    height: 11px;
+    top: 501px;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 12px;
+    line-height: 14px;
+}
+
+#ref1 .contact {
+    font-family: 'Inter';
+    line-height: 12px;
+}
+
+#tel1 {
+    width: 115px;
+    height: 14px;
+    top: 518px;
+}
+
+#email1 {
+    width: 115px;
+    height: 14px;
+    top: 539px;
+    left: 11px;
+}
+
+/* Deuxième référence */
+#ref2 .nom {
+    width: 82px;
+    height: 11px;
+    top: 562px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#tel2 {
+    width: 115px;
+    height: 14px;
+    top: 582px;
+    font-size: 12px;
+}
+
+#email2 {
+    width: 115px;
+    height: 14px;
+    top: 600px;
+    font-size: 10px;
+    line-height: 11px;
+}
+
