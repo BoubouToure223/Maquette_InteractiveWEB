@@ -8,8 +8,8 @@ body {
 }
 
 .card {
-    width: 375px;
-    height: 812px;
+    width: 790px;
+    height: 1123px;
     text-align: center;
     background: linear-gradient(#dcdcdc, #a9a9a9);
     padding: 20px;
@@ -65,8 +65,8 @@ p {
   body {
     box-sizing: border-box;
     position: relative;
-    width: 375px;
-    height: 812px;
+    width: 595px;
+    height: 842px;
     background: #FEFEFE;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -85,7 +85,7 @@ p {
     display: flex
 ;
     width: 133px;
-    height: 812px;
+    height: 842px;
     left: 0px;
     top: 0px;
     /* margin: 0px; */
@@ -109,7 +109,7 @@ p {
     align-items: center;
     justify-content: center;
     width: 124px;
-    height: 481px;
+    height: 511px;
     bottom: 0px;
     margin: 0;
     background: #000000;
@@ -139,8 +139,6 @@ p {
     height: 24.02px;
     left: -1px;
     top: 20px;
-    
-    font-family: 'Abhaya Libre', serif;
     font-style: normal;
     font-weight: 700; /* Gras */
     font-size: 15px;
@@ -569,4 +567,108 @@ line-height: 14px;
       display: none;
     }
   }
-
+.fa-circle-user{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 163px;
+top: 25px;
+}
+.fa-user-tie{
+   
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 163px;
+    top: 135px;
+}
+.fa-globe{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 163px;
+top: 413px;
+}
+.fa-steam{
+    position: absolute;
+width: 12px;
+height: 12px;
+left: 163px;
+top: 515px;
+}
+.fa-folder-open{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 163px;
+    top: 297px;
+}
+.progress-html {
+    position: absolute;
+    width: 76px;        
+    height: 7px;         
+    background-color: #ddd; 
+    border-radius: 20px;    
+    overflow: hidden;
+    left: 50px;
+top: 1px;       
+  }
+  
+  .fill-html {
+    width: 52PX;            
+    height: 7PX;
+    background-color: #111; 
+    border-radius: 50px 0 0 50px; 
+  }
+  .progress-word {
+    position: absolute;
+    width: 76px;        
+    height: 7px;         
+    background-color: #ddd; 
+    border-radius: 20px;    
+    overflow: hidden;
+    left: 50px;
+top: 1px;       
+  }
+  
+  .fill-word {
+    width: 63PX;            
+    height: 7PX;
+    background-color: #111; 
+    border-radius: 50px 0 0 50px; 
+  }
+  .progress-fran {
+    position: absolute;
+    width: 76px;        
+    height: 7px;         
+    background-color: #ddd; 
+    border-radius: 20px;    
+    overflow: hidden;
+    left: 50px;
+top: 1px;       
+  }
+  
+  .fill-fran {
+    width: 52PX;            
+    height: 7PX;
+    background-color: #111; 
+    border-radius: 50px 0 0 50px; 
+  }
+  .progress-ang {
+    position: absolute;
+    width: 76px;        
+    height: 7px;         
+    background-color: #ddd; 
+    border-radius: 20px;    
+    overflow: hidden;
+    left: 50px;
+top: 1px;       
+  }
+  
+  .fill-ang {
+    width: 25PX;            
+    height: 7PX;
+    background-color: #111; 
+    border-radius: 50px 0 0 50px; 
+  }
+  
