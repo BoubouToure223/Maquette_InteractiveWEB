@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .card img {
@@ -69,7 +70,7 @@ p {
     background: #FEFEFE;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
   }
@@ -123,7 +124,7 @@ p {
     left: 4px;
     top: 90px;
     
-    background-image: url("IMG_5408.jpg");
+    background-image: url("IMG_5408.JPG");
     background-size: cover; /* Ajuste l'image pour couvrir la zone */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Empêche la répétition */
@@ -158,7 +159,7 @@ p {
     position: absolute;
     width: 116.53px;
     height: 19.52px;
-    left: 5px;
+    left: -1px;
     top: 50px;
     
     font-family: 'Arial';
@@ -342,4 +343,230 @@ color: #000000;
     font-size: 10px;
     line-height: 11px;
 }
+.presentation {
+    position: absolute;
+    width: 152px;
+    height: 66px;
+    left: 167px;
+    top: 52px;
+    font: 400 10px/11px 'Arial';
+    color: #000;
+    display: flex;
+    align-items: center;
+  }
+  .location{
+    position: absolute;
+    width: 92px;
+    height: 11px;
+    left: 161px;
+    top: 170px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 11px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .admi{
+    position: absolute;
+width: 172px;
+height: 11px;
+left: 171px;
+top: 157px;
+font-size: 10px;
+text-align: center;
+line-height: 11px;
+font-weight: 700;
+  }
+  .tec{
+    position: absolute;
+width: 151px;
+height: 11px;
+left: 171px;
+top: 223px;
+font-weight: 700;
+font-size: 10px;
+line-height: 11px;
+  }
+  .icrisat{
+    position: absolute;
+width: 83px;
+height: 13px;
+left: 172px;
+top: 236px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+  }
+  .travail1{
+    position: absolute;
+width: 180px;
+height: 25px;
+left: 172px;
+top: 259px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+  }
+  .travail2{
+    position: absolute;
+width: 172px;
+height: 22px;
+left: 171px;
+top: 191px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+  }
+  .comp{
+    position: absolute;
+width: 104px;
+height: 13px;
+left: 188px;
+top: 297px;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+  }
+  .comp1{
+    position: absolute;
+width: 41px;
+height: 10px;
+left: 169px;
+top: 336px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+  }
+  .comp2{
+    position:absolute;
+    width: 41px;
+height: 10px;
+left: 169px;
+top: 370px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+  }
+.langue{
+    position: absolute;
+width: 77px;
+height: 10px;
+left: 188px;
+top: 416px;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+}
+.loisirs{
+    position: absolute;
+width: 77px;
+height: 10px;
+left: 188px;
+top: 515px;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+}
+.langue1{
+    position: absolute;
+width: 56px;
+height: 10px;
+left: 170px;
+top: 446px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+}
+.langue2{
+    position: absolute;
+width: 47px;
+height: 10px;
+left: 171px;
+top: 479px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+}
+.lecture{
+    position: absolute;
+width: 47px;
+height: 10px;
+left: 186px;
+top: 553px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+}
+.gym{
+    position: absolute;
+width: 69px;
+height: 10px;
+left: 184px;
+top: 586px;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+}
+.point1{
+    position: absolute;
+width: 10px;
+height: 10px;
+left: 169px;
+top: 553px;
+border-radius: 50%;
+background: #000000;
+}
+.point2{
+    position: absolute;
+width: 10px;
+height: 10px;
+left: 169px;
+top: 586px;
+border-radius: 50%;
+background: #000000;
+}
+.propos{
+    position: absolute;
+width: 68px;
+height: 14px;
+left: 188px;
+top: 28px;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+}
+.experience{
+    position: absolute;
+width: 90px;
+height: 15px;
+left: 188px;
+top: 138px;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+
+}
+.retour {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1000;
+}
+.button-container {
+    position: fixed; 
+    top: 20px;    
+    right: 20px;     
+    z-index: 1000;  
+}
+@media print {
+    .button-container {
+      display: none;
+    }
+  }
 
